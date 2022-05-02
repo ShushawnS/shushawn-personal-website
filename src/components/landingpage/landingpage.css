@@ -1,0 +1,119 @@
+.landingpage {
+    width: 100%;
+    height: calc(100vh - 70px);
+    top: 70px;
+    scroll-snap-align: start; 
+    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background-color: #252525;
+    color: white;
+} 
+
+.landingpage-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+
+.landingpage-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    flex-grow: 2;
+    padding-left: 10vw;
+} 
+
+.landingpage-right {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30vh;
+    padding-right: 10vw;
+}  
+
+.text {
+    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif !important;
+    margin-top: 3% !important;
+    color: cornsilk !important;
+    font-weight: 600 !important;
+    
+} 
+
+.name {
+    font-weight: 700 !important;
+    overflow: hidden;
+} 
+
+.qualities {
+    font-weight: 700 !important;
+    font-style: italic;
+}
+
+.shushawnAnimated {
+    border-radius: 40px;
+    max-width: 100%;
+    margin-left: 30px;
+    border: 5px solid cornsilk;
+
+} 
+
+.linkButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 2%;
+}  
+
+.githubButton {
+    background-color: #71a758 !important;
+    color: cornsilk !important;
+} 
+
+.MuiButton-containedPrimary:hover {
+    background-color: #252525 !important;
+} 
+
+.MuiSvgIcon-fontSizeSmall {
+    font-size: 1rem !important;
+}
+
+.lButton:hover {
+    background-color: #252525 !important;
+    color: cornsilk !important;
+    transition: .5s;
+}
+
+hr {
+    color: cornflowerblue;
+    width: 100%
+} 
+
+.landingpage-bottom {
+    display: flex;
+    flex: 1 1 auto;
+    align-self: center;
+    align-content: flex-end;
+    margin-top: 10vh;
+    height: 80px !important;
+} 
+
+.Typewriter__wrapper {
+    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif !important;
+    margin-top: 3% !important;
+    color: skyblue !important;
+    font-weight: 600 !important;
+    font-size: larger;
+} 
+
+.MuiSvgIcon-fontSizeLarge {
+    color: cornsilk !important;
+    font-size: 100px !important;
+}

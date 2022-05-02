@@ -1,0 +1,11 @@
+.experiences {
+    width: 100%;
+    height: calc(100vh - 70px);
+    top: 70px;
+    position: relative;
+    scroll-snap-align: start;
+    
+    background-color: #252525;
+    color: white;
+    
+}

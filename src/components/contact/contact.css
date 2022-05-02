@@ -1,0 +1,8 @@
+.contact {
+    width: 100%;
+    height: calc(100vh - 70px);
+    top: 70px;
+    position: relative;
+    background-color: white;
+    scroll-snap-align: start;
+}
